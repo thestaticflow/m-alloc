@@ -2,6 +2,9 @@ include "structure.h" //for some libs already declared
 int n = 5;
 int* ptr;
 
+void arr(void) 
+(
+
 int i;
 
 ptr = (int*)calloc(n * sizeof(int)) /*basically size of int is 4 byte = 8 bit... but it depend with compiler some conpilers 2 byte for int some other compilers
@@ -15,3 +18,4 @@ for(i = 0; i < n; ++i){
 for(i = 0; i < n; ++i){
             cout<<ptp[i]<<"\n";
 }
+)
