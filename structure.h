@@ -1,3 +1,6 @@
+#IFNDEF STRUCTURE_H
+#DEFINE STRUCTURE_H
+//#pragma once -> better for MSVC Compiler
 #include <iostream>
 #include <ctype.h>
 #include <string>
@@ -28,3 +31,5 @@ if(ptomem == NULL){
                                         printf("%d", &ptomem->digits);
 
 }
+
+#endif
